@@ -2,6 +2,8 @@
 
 A Bot, for Discord, in Python, hosted in the PrivateCraft-Network. But wait! There is more! Project Soteria has a second component, which is downloadable Software for **your** PC! [_(More Info about the Client here)_](https://github.com/Creepmeboom/soteria-client)
 
+Also thanks to my Friend ReapDog, Soteria is defined as a Mainframe now.
+
 ## Table of Contents
 
 - [Project Soteria - 0.0.8 - closed Alpha](#project-soteria---008---closed-alpha)
@@ -146,3 +148,9 @@ In this step, we will look at some basics, which are partially optional and of c
 ### **Integrations in the Soteria-Client**
 
 ### **All available Commands**
+This Chapter privides a List of all available Commands, including Authorization Requirements and Parameters.
+
+| Command       | Arguments     | Auth-Level    | Description   |
+| ------------- | ------------- | ------------- | ------------- |
+| purge         | X:Integer     | Role          | Deletes the latest X Amount of Messages in the current Textchannel. |
+| service       | [ listall \| enable [ X ] \| disable [ X ] ] | Role | Controls the Service Framework. Here you can enable or disable specific Features in Soteria. Replace X with the Name of the Service. You can receive a List of all Services and their Status by using the _listall_ argument. |
